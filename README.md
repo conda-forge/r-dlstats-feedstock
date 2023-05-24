@@ -1,11 +1,11 @@
-About r-dlstats
-===============
+About r-dlstats-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-dlstats-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/GuangchuangYu/dlstats
 
 Package license: Artistic-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-dlstats-feedstock/blob/main/LICENSE.txt)
 
 Summary: Monthly download stats of 'CRAN' and 'Bioconductor' packages. Download stats of 'CRAN' packages is from the 'RStudio' 'CRAN mirror', see <https://cranlogs.r-pkg.org:443>. 'Bioconductor' package download stats is at <https://bioconductor.org/packages/stats/>.
 
