@@ -1,4 +1,4 @@
-{% set version = "0.1.6" %}
+{% set version = "0.1.7" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/dlstats_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/dlstats/dlstats_{{ version }}.tar.gz
-  sha256: c0ee00f2e232ba771349cc240fe84b5b49d82885525dadc38256c448e99b472f
+  sha256: 2a6534c03f4883ca49c5cc5c4de57059695ae5a1e34f86e9b2704dfac47d87e1
 
 build:
   merge_build_host: true  # [win]
