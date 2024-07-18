@@ -1,6 +1,5 @@
 {% set version = "0.1.7" %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-dlstats
@@ -13,8 +12,7 @@ source:
   sha256: 2a6534c03f4883ca49c5cc5c4de57059695ae5a1e34f86e9b2704dfac47d87e1
 
 build:
-  merge_build_host: true  # [win]
-  number: 1
+  number: 2
   noarch: generic
   rpaths:
     - lib/R/lib/
